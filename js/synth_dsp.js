@@ -378,6 +378,9 @@ var WebSynth = function() {
 };
 
 WebSynth.prototype.play = function(n) {
+	if(this.context.state === 'suspended') {
+		this.context.resume();
+	}
 	this.eg.note_on();
 	this.feg.note_on();
 	var f1 = 440 * Math.pow(2.0, (this.vco1.oct + n + this.vco1.fine - 81.0) / 12.0);
