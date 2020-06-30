@@ -4,7 +4,7 @@ Web browser based synthesizer application
 
 ## DESCRIPTION
 WebAudioSynth v2 is new version of WebAudioSynth.  
-(old version: http://aikelab.net/websynth/ )   
+(old version: https://aikelab.net/websynth/ )   
 It is an analog style synthesizer application which all written in JavaScript using Web Audio API.  
 ![image](images/thumb2.png)
 
@@ -17,8 +17,8 @@ It is an analog style synthesizer application which all written in JavaScript us
 - refactoring
 
 ## WEBSITE
-http://aikelab.net/websynthv2/  
-http://github.com/aike/webaudiosynthv2
+https://aikelab.net/websynthv2/  
+https://github.com/aike/webaudiosynthv2
 
 ## SYSTEM REQUIREMENT
 WebAudioSynth requires the latest version of Chrome or Safari. 

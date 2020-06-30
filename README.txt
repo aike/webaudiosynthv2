@@ -3,7 +3,7 @@
 
 1. DESCRIPTION
   WebAudioSynth v2 is new version of WebAudioSynth.
-     old version: http://aikelab.net/websynth/
+     old version: https://aikelab.net/websynth/
   It is an analog style synthesizer application which all written 
   in JavaScript using Web Audio API.
 
@@ -16,15 +16,15 @@
   - refactoring
 
 3. WEBSITE
-  http://aikelab.net/websynthv2/
-  http://github.com/aike/webaudiosynthv2
+  https://aikelab.net/websynthv2/
+  https://github.com/aike/webaudiosynthv2
 
 4. SYSTEM REQUIREMENT
   WebAudioSynth requires the latest version of Chrome or Safari. 
   The current version of Firefox(35.0) does not support GLIDE Control.
 
 5. CREDIT
-  WebAudioSynth V2 program is licenced under MIT License.
+  WebAudioSynth V2 program is licensed under MIT License.
   Programming and GUI Design: aike
   three.js by mrdoob https://github.com/mrdoob/three.js/
   ThreePiece.js by aike https://github.com/aike/ThreePiece.js

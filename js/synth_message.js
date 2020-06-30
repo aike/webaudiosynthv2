@@ -8,6 +8,9 @@
 
 window.addEventListener("message", webMidiLinkRecv, false);
 function webMidiLinkRecv(event) {
+	if (event.data.split === undefined) {
+		return;
+	}
 	var msg = event.data.split(",");
 	switch (msg[0]) {
 		case "link":  //Level1 messages

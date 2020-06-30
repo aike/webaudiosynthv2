@@ -6,8 +6,8 @@
 
     <meta property="og:title" content="Web Audio Synth V2"/>
     <meta property="og:description" content="Synthesizer App using Web Audio API and Web GL"/>
-    <meta property="og:image" content="http://aikelab.net/websynthv2/images/thumb.jpg"/>
-    <meta property="og:url" content="http://aikelab.net/websynthv2/"/>
+    <meta property="og:image" content="https://aikelab.net/websynthv2/images/thumb.jpg"/>
+    <meta property="og:url" content="https://aikelab.net/websynthv2/"/>
     <meta property="og:type" content="product"/>
     <meta property="og:site_name" content="aikelab"/>
 
@@ -25,5 +25,34 @@
 </head>
 <body style="background-color:#000;">
     <div id="draw" style="margin:0 auto;"></div>
+
+<!-- =========================================================== -->
+<div id="buttons">
+    <div style="position:absolute; right:275px; top:22px;">
+        <a href="README.txt" style="font-size:12px;color:#999999;">README</a>
+    </div>
+
+    <div style="position:absolute; right:190px; top:20px;">
+    <div class="fb-like" data-href="https://aikelab.net/websynthv2/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+    </div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=44529105079&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div style="position:absolute; right:110px; top:23px;">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+
+    <div style="position:absolute; right:20px; top:23px;">
+    <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    </div>
+</div>
+
 </body>
 </html>
